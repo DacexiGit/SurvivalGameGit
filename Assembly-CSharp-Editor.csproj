@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{62B9753A-C955-E98A-4ED3-7E01E0FB6915}</ProjectGuid>
+	<ProjectGuid>{E7479B80-BAFF-2D10-BA32-59691E05062B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,20 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Materials\Animations\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\AntialiasingEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\BloomEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\DepthOfFieldEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\EdgeDetectionEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\SunShaftsEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\TonemappingEditor.cs" />
-     <Compile Include="Assets\Materials\Animations\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\AntialiasingEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\BloomEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\SunShaftsEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\TonemappingEditor.cs" />
+     <Compile Include="Assets\Animations\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
      <Compile Include="Assets\TerrainToolkit\Editor\TerrainToolkitEditor.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -91,9 +91,11 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\TriPlanar\TriPlanarTerrain\Shaders\triPlanarTerrain.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
@@ -102,6 +104,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
@@ -143,6 +146,7 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\TerrainToolkit\Read me.txt" />
@@ -185,11 +189,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{623AF5CA-EB81-CB6D-4794-935468E8415F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{A5B6F804-9506-10B7-CD9D-F8089D8B254C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{8513B4BA-B40C-80D0-1087-E4FBF499D794}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{CF1D9EC5-137D-F9CF-4DB2-1F8B0FF03E7C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{483EB479-9041-8042-DAD3-DE94E34E7DC1}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+      <Project>{42E06ABE-14EF-48C5-C0ED-3E64EADA8B5B}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

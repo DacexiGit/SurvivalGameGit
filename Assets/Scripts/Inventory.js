@@ -41,6 +41,12 @@ function Start () {
 	yield WaitForSeconds(0.05);
 	InventoryOpen = 0;
 	PlayerController = GetComponent(UnityStandardAssets.Characters.FirstPerson.FirstPersonController);
+	ItemIn1 = Log;
+	Instantiate(LogInvBtn, Slot1.transform.position, Slot1.transform.rotation);
+	yield WaitForSeconds(0.05);
+	BtnToMove = GameObject.FindGameObjectWithTag ("InvBtnToMove");
+	yield WaitForSeconds(0.05);
+	BtnToMove.transform.parent = Inventory.transform;
 }
 
 function Update () {
